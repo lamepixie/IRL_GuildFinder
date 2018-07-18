@@ -1,46 +1,45 @@
-body {
-    color: teal;
-    border-color: teal;
+* {box-sizing: border-box;}
+body {color: teal;}
+
+header {
+    line-height: 15px;
+    padding-bottom: 40px;
 }
 
-* {box-sizing: border-box;}
-
+/* W logo */
+.logo {
+    width: 30px;
+    height: auto;
+}
 
 .carousel {
-    display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
     height: auto;
     padding-bottom: 40px;
 }
-
+/* carousel images */
 .cimg{
     border-radius: 15px;
-}
-
-.header-container {
-    padding-bottom: 40px;
 }
 
 .form-group {
     margin-left: auto;
     margin-right: auto;
-    width: 17%;
+    width: 50%;
     height: auto;
+    padding: 0;
 }
 
 .button {
-    display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 30%;
+    width: 50%;
     padding-bottom: 30px;
+    text-align: center;
 }
 
 .create {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
+  text-align: center;
 }
