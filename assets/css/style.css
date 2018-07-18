@@ -12,6 +12,9 @@ header {
     height: auto;
 }
 
+#logout {
+    float: right;
+}
 .carousel {
     margin-left: auto;
     margin-right: auto;
