@@ -1,0 +1,46 @@
+body {
+    color: teal;
+    border-color: teal;
+}
+
+* {box-sizing: border-box;}
+
+
+.carousel {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+    padding-bottom: 40px;
+}
+
+.cimg{
+    border-radius: 15px;
+}
+
+.header-container {
+    padding-bottom: 40px;
+}
+
+.form-group {
+    margin-left: auto;
+    margin-right: auto;
+    width: 17%;
+    height: auto;
+}
+
+.button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    padding-bottom: 30px;
+}
+
+.create {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
