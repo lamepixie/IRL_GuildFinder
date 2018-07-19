@@ -13,7 +13,8 @@ header {
 }
 
 #logout {
-    float: right;
+    text-align: right;
+    margin-right: 10px;
 }
 .carousel {
     margin-left: auto;
@@ -45,4 +46,41 @@ header {
 
 .create {
   text-align: center;
+}
+
+.profile {
+    background: grey;
+    color: white;
+    max-width: 200px;
+    max-height: 200px;
+    margin-right: 20px;
+    margin-left: 40px;
+}
+
+.event-board {
+    background: grey;
+    color: white;
+    width: 600px;
+    height: 300px;
+    margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.friends-list {
+    background: grey;
+    color: white;
+    max-width: 200px;
+    height: 500px;
+    margin-right: 20px;
+    margin-left: 40px;
+}
+
+.chat-window {
+    background: grey;
+    color: white;
+    width: 600px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
 }
