@@ -39,12 +39,16 @@ header {
 }
 
 .profile {
-    background: grey;
-    color: white;
-    max-width: 200px;
-    max-height: 200px;
     margin-right: 20px;
     margin-left: 40px;
+}
+
+.nameRealm {
+    margin-bottom: 0px;
+}
+
+.classSpec {
+    margin-top: 0px;
 }
 
 .event-board {
@@ -58,10 +62,6 @@ header {
 }
 
 .friends-list {
-    background: grey;
-    color: white;
-    max-width: 200px;
-    height: 500px;
     margin-right: 20px;
     margin-left: 40px;
 }
