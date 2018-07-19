@@ -6,16 +6,6 @@ header {
     padding-bottom: 40px;
 }
 
-/* W logo */
-.logo {
-    width: 30px;
-    height: auto;
-}
-
-#logout {
-    text-align: right;
-    margin-right: 10px;
-}
 .carousel {
     margin-left: auto;
     margin-right: auto;
