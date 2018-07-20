@@ -1,10 +1,9 @@
 * {box-sizing: border-box;}
-body {color: teal;}
-
-header {
-    line-height: 15px;
-    padding-bottom: 40px;
+body {
+    color: teal;
+    background: lightgrey;
 }
+header {padding-bottom:40px;}
 
 .carousel {
     margin-left: auto;
@@ -17,6 +16,8 @@ header {
 .cimg{
     border-radius: 15px;
 }
+
+.card {box-shadow: 10px 10px 8px rgba(40, 53, 53, 0.685)}
 
 .form-group {
     margin-left: auto;
@@ -38,39 +39,28 @@ header {
   text-align: center;
 }
 
+/* NEVER PUT MARGINS IN A COLUMN */
 .profile {
-    margin-right: 20px;
-    margin-left: 40px;
+    padding-left: 40px;
+    padding-bottom: 10px;
 }
 
 .nameRealm {
     margin-bottom: 0px;
 }
-
 .classSpec {
     margin-top: 0px;
 }
 
-.event-board {
-    background: grey;
-    color: white;
-    width: 600px;
-    height: 300px;
-    margin-bottom: 60px;
-    margin-left: auto;
-    margin-right: auto;
+.friends-list {
+    padding-left: 40px;
+    padding-top: 20px;
 }
 
-.friends-list {
-    margin-right: 20px;
-    margin-left: 40px;
+.event-board {
+    padding-bottom: 10px;
 }
 
 .chat-window {
-    background: grey;
-    color: white;
-    width: 600px;
-    height: 300px;
-    margin-left: auto;
-    margin-right: auto;
+    padding-top: 20px;
 }
