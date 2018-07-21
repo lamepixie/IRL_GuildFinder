@@ -3,7 +3,6 @@ body {
     color: teal;
     background: lightgrey;
 }
-header {padding-bottom:40px;}
 
 .carousel {
     margin-left: auto;
@@ -40,9 +39,22 @@ header {padding-bottom:40px;}
 }
 
 /* NEVER PUT MARGINS IN A COLUMN */
-.profile {
+.main-container {
+    padding-top: 40px;
     padding-left: 40px;
-    padding-bottom: 10px;
+    padding-right: 40px;
+}
+
+.profile {
+    margin-bottom: 10px;
+}
+
+.profilePic {
+    padding: 10px;
+}
+
+.eventBanner {
+    padding: 10px;
 }
 
 .nameRealm {
@@ -53,14 +65,13 @@ header {padding-bottom:40px;}
 }
 
 .friends-list {
-    padding-left: 40px;
-    padding-top: 20px;
+    margin-top: 20px;
 }
 
 .event-board {
-    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .chat-window {
-    padding-top: 20px;
+    margin-top: 20px;
 }

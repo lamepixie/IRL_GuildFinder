@@ -26,7 +26,7 @@
         </a>
         <div class="navbar-nav form-inline flex-row justify-content-end">
             <a class="nav-item">Welcome, Kairu! |&nbsp<span class="sr-only"></span></a>
-          <a class="nav-item nav-link" href="index.html">Log Out<span class="sr-only"></span></a>
+          <a class="nav-item nav-link active" href="index.html">Log Out</span></a>
         </div>
     </nav>
 </header>
@@ -35,10 +35,9 @@
 <!-- MAIN CONTAINER -->
 <div class="main-container">
     <div class="row">
-        <div class="col-lg-4 profile">
-            <div class="card" style="width: 200px;">
-    <!-- PROFILE CARD -->
-                <img class="card-img-top" src="./assets/images/kairu.jpg" alt="Kairu">
+        <div class="col-lg-4">
+            <div class="card profile">
+                <img class="card-img-top profilePic" src="./assets/images/kairu.jpg" alt="Kairu">
                 <div class="card-body">
                     <h5 class="nameRealm">Kairu || Dalaran</h5>
                     <h7 class="classSpec">Shadow Priest</h7>
@@ -46,45 +45,28 @@
                     <a href="#" class="btn btn-outline-info">Change Characters</a>
                 </div>
             </div>
-        </div>
-    <!-- END PROFILE CARD -->
-
-    <!-- EVENT CARD -->
-        <div class="col-lg-8 event-board">
-            <div class="card" style="width: 600px;">
-                <img class="card-img-top" src="./assets/images/sargeras.jpg" alt="Kairu" style="height: 200px;">
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Catch up on the bonus weekend for Battle Pets!</li>
-                    <li class="list-group-item">Just trying to grind for Reigns of Invincible in ICC. Who's with me?</li>
-                </ul>
-                <a href="#" class="btn btn-outline-info">Add new event</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- END EVENT CARD -->
-
-    <div class="row">
-        <div class="col-lg-4 friends-list">
-            <div class="card" style="width: 200px;">
-    <!-- FRIEND CARD -->
+            <div class="card friends-list">
                 <div class="card-header">Friends List</div>
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item">Piltzen</li>
                     <li class="list-group-item">Squidshy</li>
                     <li class="list-group-item">Boompanda</li>
                 </ul>
-                <div class="card-body">
-
-                </div>
             </div>
         </div>
-    <!-- END FRIENDS CARD -->
-    
-    <!-- CHAT CARD -->
-        <div class="col-lg-8 chat-window">
-            <div class="card" style="width: 600px;">
-                <div class="card-body" style="height: 200px;">
+        <div class="col-lg-8">
+            <div class="card event-board">
+                <img class="card-img-top eventBanner" src="./assets/images/sargeras.jpg" alt="Kairu">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Catch up on the bonus weekend for Battle Pets!</li>
+                    <li class="list-group-item">Just trying to grind for Reigns of Invincible in ICC. Who's with me?</li>
+                </ul>
+                <div class="card-body">
+                <a href="#" class="btn btn-outline-info">Add new event</a>
+                </div>
+            </div>
+            <div class="card chat-window">
+                <div class="card-body">
                     <br>
                     <br>
                     <br>
@@ -96,14 +78,12 @@
                         </div>
                         <div class="col">
                             <a href="#" class="btn btn-outline-info">send</a>
-                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-    <!-- END CHAT CARD -->
+
 
 <!-- BOOTSTRAP JAVASCRIPT & JQUERY -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
