@@ -1,7 +1,10 @@
 * {box-sizing: border-box;}
 body {
     color: teal;
-    background: lightgrey;
+    background-color: rgb(172, 169, 169);
+}
+.bg-dark {
+    background-color: black!important;
 }
 
 .carousel {
@@ -16,7 +19,18 @@ body {
     border-radius: 15px;
 }
 
-.card {box-shadow: 10px 10px 8px rgba(40, 53, 53, 0.685)}
+.card {
+    background-color: rgb(44, 43, 43);
+    box-shadow: 10px 10px 8px rgba(40, 53, 53, 0.685)
+}
+
+.eventTitle {
+    background-color: black;
+}
+
+.list-group-item {
+    background-color: rgb(44, 43, 43);
+}
 
 .form-group {
     margin-left: auto;
@@ -46,32 +60,72 @@ body {
 }
 
 .profile {
+    border-style: groove;
+    border-color: black;
+    border-width: 2px;
     margin-bottom: 10px;
 }
-
 .profilePic {
     padding: 10px;
 }
-
-.eventBanner {
-    padding: 10px;
-}
-
 .nameRealm {
+    color: gold;
     margin-bottom: 0px;
 }
 .classSpec {
     margin-top: 0px;
 }
 
+.darkBtn {
+    color: #fff;
+    border-color: gold;
+    background-color: black;
+}
+
+.darkBtn:hover {
+    color: gold;
+    border-color: white;
+    background-color: black;
+    box-shadow: 6px 6px 3px black;
+}
+
+.banner {
+    background-color: black;
+}
+
+.eventBanner {
+    padding: 10px;
+}
+
+.eventBoard {
+    background-color: black;
+    color: gold;
+    text-align: center;
+}
+
 .friends-list {
+    border-style: groove;
+    border-color: black;
+    border-width: 2px;
     margin-top: 20px;
 }
 
+.friendsList {
+    background-color: black;
+    color: gold;
+    margin-bottom: 0px;
+}
+
 .event-board {
+    border-style: groove;
+    border-color: black;
+    border-width: 2px;
     margin-bottom: 10px;
 }
 
 .chat-window {
+    border-style: groove;
+    border-color: black;
+    border-width: 2px;
     margin-top: 20px;
 }
